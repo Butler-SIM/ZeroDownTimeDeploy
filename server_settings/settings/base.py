@@ -24,6 +24,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'ZeroDownTimeDeployTest',
+    'healthCheck',
 ]
 
 MIDDLEWARE = [
