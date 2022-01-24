@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "ZeroDownTimeDeploy_Pull"
+
+
+sudo docker exec  ubuntu_django_gunicorn2_1 git pull
+
+sudo docker exec  ubuntu_django_gunicorn_1 git pull
+
+sudo docker restart ubuntu_django_gunicorn_1
+
+sleep 1m
+
+
+sudo docker restart ubuntu_django_gunicorn2_1
