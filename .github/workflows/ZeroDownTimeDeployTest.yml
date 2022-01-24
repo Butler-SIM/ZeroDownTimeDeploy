@@ -19,7 +19,7 @@ jobs:
           username: ubuntu
           key: ${{ secrets.KEY }}
           script: |
-            sh deploy                       
+            sh deploy_pull                       
 
                        
 
