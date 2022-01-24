@@ -3,8 +3,8 @@ import socket
 
 # Create your views here.
 def main(request):
-    ip = socket.gethostbyname(socket.gethostname())
+    #ip = socket.gethostbyname(socket.gethostname())
 
 
 
-    return render(request, 'index.html',{'ip' : ip})
+    return render(request, 'index.html')
